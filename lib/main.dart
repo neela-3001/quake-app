@@ -47,14 +47,14 @@ class Quake extends StatelessWidget {
   void _showAlerPage(BuildContext context, String message) {
     // ignore: unused_local_variable
     var alert = new AlertDialog(
-      title: Text('QUAKES'),
+      title: Text('quakes'),
       content: Text(message),
       actions: [
         FloatingActionButton(
           onPressed: () {
             Navigator.pop(context);
           },
-          child: Text('DONE'),
+          child: Text('ok'),
         )
       ],
     );
